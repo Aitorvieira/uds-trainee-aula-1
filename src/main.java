@@ -6,16 +6,27 @@ public class main {
 
         //Scanner entrada = new Scanner(System.in);
        // System.out.println("Digite um numero");
-
+/*
         int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero:"));
         JOptionPane.showMessageDialog(null, romanoswitch(numero));
-        /*
+
         int numero = entrada.nextInt();
 
         System.out.println("O numero digitado em romano é: " + romanoswitch(numero));
-        */
+*/
+    int numero = 10;
+
+    for (int i=10; i>=1; i--) {
+        numero = i;
+        JOptionPane.showMessageDialog(null, romanoswitch(numero));
     }
-    
+/*
+    while (numero >=1){
+        JOptionPane.showMessageDialog(null, romanoswitch(numero));
+        numero--;
+    }*/
+}
+
 
     public static String romanoswitch(int numero){
 
