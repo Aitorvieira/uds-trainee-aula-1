@@ -15,35 +15,7 @@ public class main {
         System.out.println("O numero digitado em romano é: " + romanoswitch(numero));
         */
     }
-
-    public static String romanoif (int numero){
-        String romano = null;
-
-        if(numero == 10){
-            romano = "X";
-        }else if (numero == 9){
-            romano = "IX";
-        }else if (numero == 8){
-            romano = "VIII";
-        }else if (numero == 7){
-            romano = "VII";
-        }else if (numero == 6){
-            romano = "VI";
-        }else if (numero == 5){
-            romano = "V";
-        }else if (numero == 4){
-            romano = "IV";
-        }else if (numero == 3){
-            romano = "III";
-        }else if (numero == 2){
-            romano = "II";
-        }else if (numero == 1){
-            romano = "I";
-        }else{
-            romano = "Inválido";
-        }
-        return romano;
-    }
+    
 
     public static String romanoswitch(int numero){
 
